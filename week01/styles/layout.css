@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+}
+
+.content {
+    padding: 30px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-height: 300px;
+}
+
+.main-content {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.aside-content {
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
